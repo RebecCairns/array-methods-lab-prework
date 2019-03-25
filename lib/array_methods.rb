@@ -11,6 +11,7 @@ def using_include(array, element)
     returner = false
   end   
   return returner
+  
 end
 
 def using_sort(array)
