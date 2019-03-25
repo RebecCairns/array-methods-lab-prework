@@ -3,12 +3,12 @@ def using_include(array, element)
   num = array.length - 1
   while(num >= 0)
     if(newArr[num] == element)
-      returner = 'true'
+      returner = true
     end
     num-=1
   end
-  if(returner != 'true')
-    returner = 'false'
+  if(returner != true)
+    returner = false
   end   
   return returner
 end
