@@ -1,5 +1,5 @@
 def using_include(array, element)
-  newArr = array.sort
+  newArr = array
   num = array.length - 1
   while(num >= 0)
     if(newArr[num] == element)
@@ -11,7 +11,8 @@ def using_include(array, element)
     returner = false
   end   
   return returner
-  
+  #just wanted to code the long way for fun 
+  #could have just used include
 end
 
 def using_sort(array)
